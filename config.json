@@ -1,0 +1,25 @@
+{
+  "name": "memos2",
+  "identifier": "cn.mailpm.memos",
+  "icon": "memos.png",
+  "requiremnents": ["url"],
+  "entitlements": ["network"],
+      "title": "保存至memos",
+      "javascript file": "memos.js" ,
+  "Options": [
+    {
+      "identifier":"site",
+      "label": "site",
+      "type": "string"
+    },
+    {
+      "identifier": "access_token",
+      "type": "string",
+      "label": {
+        "en": "access_token",
+        "zh": "密钥"
+      }
+    }
+
+  ] 
+}
