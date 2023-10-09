@@ -7,6 +7,3 @@ A PopClip extension for Memos.
 3. Set your website and access token.
 4. That's it, you're ready to go.
 
-## License
-This project is licensed under the terms of the MIT license. See [LICENSE](https://opensource.org/license/mit/) for more detail.
-
