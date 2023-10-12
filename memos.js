@@ -2,9 +2,9 @@
 
 const query = popclip.input.text
 
-const access_token = popclip.options.access_token
+const access_token = popclip.options.access_token 
 
-const url = popclip.options.site
+const url = popclip.options.site + '/api/v1/memo'
 
 const axios = require('axios');
 

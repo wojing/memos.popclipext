@@ -8,8 +8,15 @@
       "javascript file": "memos.js" ,
   "Options": [
     {
-      "identifier":"site",
-      "label": "site",
+      "identifier":"msite",
+      "label": {
+        "en": "Memos url",
+        "zh": "Memos地址"
+      },
+      "description": {
+        "en": "your memos url,like https://www.yourmemos.site",
+        "zh": "memo地址，如https://www.yourmemos.site"
+      },
       "type": "string"
     },
     {
@@ -17,7 +24,11 @@
       "type": "string",
       "label": {
         "en": "access_token",
-        "zh": "密钥"
+        "zh": "access token"
+      },
+      "description": {
+        "en": "access_token",
+        "zh": "access_token"
       }
     }
 
