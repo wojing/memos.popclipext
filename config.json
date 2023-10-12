@@ -1,21 +1,24 @@
 {
-  "name": "memos2",
-  "identifier": "cn.mailpm.memos",
+  "name": "Memos",
+  "identifier": "org.eu.wojin",
   "icon": "memos.png",
   "requiremnents": ["url"],
   "entitlements": ["network"],
-      "title": "保存至memos",
+      "title": {
+        "en": "send to Memos",
+        "zh": "发送至memos"
+      },
       "javascript file": "memos.js" ,
   "Options": [
     {
-      "identifier":"msite",
+      "identifier":"site",
       "label": {
-        "en": "Memos url",
+        "en": "Memos Url",
         "zh": "Memos地址"
       },
       "description": {
-        "en": "your memos url,like https://www.yourmemos.site",
-        "zh": "memo地址，如https://www.yourmemos.site"
+        "en": "https://www.yourmemo.net",
+        "zh": "https://www.yourmemo.net"
       },
       "type": "string"
     },
@@ -23,12 +26,8 @@
       "identifier": "access_token",
       "type": "string",
       "label": {
-        "en": "access_token",
-        "zh": "access token"
-      },
-      "description": {
-        "en": "access_token",
-        "zh": "access_token"
+        "en": "Access Token",
+        "zh": "Access Token"
       }
     }
 
